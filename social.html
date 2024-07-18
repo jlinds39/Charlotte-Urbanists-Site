@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Charlotte Urbanists</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/logo.png" alt="Logo">
+            <h1>Charlotte Urbanists</h1>
+        </div>
+        <div class="contact-info">
+            <p>We are a local community organization working to make Charlotte a better place to live!</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Dig Deeper</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="social.html">Play Your Part</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Contact Us</h2>
+        <div class="social">
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+            <div class="social-icons">
+                <div>
+                    <a href="https://www.instagram.com/clt_urbanists/" data-tooltip="@clt_urbanists"><img src="images/instagram.png" alt="Instagram Logo"></a>
+                </div>
+                <div>
+                    <a href="https://x.com/CLT_Urbanists" data-tooltip="@CLT_Urbanists"><img src="images/twitter.png" alt="Twitter Logo"></a> 
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/clturbanists" data-tooltip="CLT Urbanists"><img src="images/facebook.png" alt="Facebook Logo"></a> 
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/@charlotteurbanists4085" data-tooltip="Charlotte Urbanists"><img src="images/youtube.png" alt="YouTube Logo"></a> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Charlotte Urbanists. All rights reserved.</p>
+    </footer>
+</body>
+</html>

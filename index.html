@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Urbanists</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/logo.png" alt="Logo">
+            <h1>Charlotte Urbanists</h1>
+        </div>
+        <div class="contact-info">
+            <p>We are a local community organization working to make Charlotte a better place to live!</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Dig Deeper</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="social.html">Play Your Part</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Our Work</h2>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3>Benches for Bus Stops</h3>
+                    <img src="images/busstop.png" alt="Bus Stop" width="1200" height="650">
+                    <p>We raised over $8,000 to build and distribute 80+ benches to bus stops in need all over Charlotte. <br>This project provides riders with the comfort and dignity of a place to sit, and serves to highlight the lack of basic amenities at many bus stops.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Jane's Walks</h3>
+                    <img src="images/jane.jpg" alt="Jane's Walk" width="900" height="750">
+                    <p>Walking tours inspired by the great urban activist Jane Jacobs. </p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Policy Power Hour</h3>
+                    <img src="images/policy.png" alt="Policy Power Hour" width="754" height="650">
+                    <p>Meetings to discuss local policy issues and how we can get involved as citizens and advocates.</p>
+                </div>
+                <div class="carousel-item">
+                    <h3>Critical Mass</h3>
+                    <img src="images/mass.jpeg" alt="Charlotte Group Bicycle Ride" width="1000" height="650">
+                    <p>We meet at First Ward Park on the last Friday of every month at 6:45. Charlotte's largest group ride! </p>
+                </div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Charlotte Urbanists. All rights reserved.</p>
+    </footer>
+</body>
+</html>

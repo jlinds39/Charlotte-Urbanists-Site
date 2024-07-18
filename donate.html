@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Charlotte Urbanists</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=AbHKUMLbzuDjwuPF2g4mfZmiTnvIVbnCsY00_iqiLiqZQjCdy4SELTJz9532kpzqeoehbZdDqrjita8x"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="images/logo.png" alt="Logo">
+            <h1>Charlotte Urbanists</h1>
+        </div>
+        <div class="contact-info">
+            <p>We are a local community organization working to make Charlotte a better place to live!</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Dig Deeper</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="social.html">Play Your Part</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Support Our Work</h2>
+        <div class="donation">
+            <p>Your donations help us continue our mission to improve urban living in Charlotte.</p>
+            
+            <div class="donation-form">
+                <label for="donation-amount">Donation Amount:</label>
+                <input type="number" id="donation-amount" name="donation-amount" min="1" step="any">
+                <div id="paypal-button-container"></div>
+            </div>
+        </div>  
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Charlotte Urbanists. All rights reserved.</p>
+    </footer>
+</body>
+</html>
